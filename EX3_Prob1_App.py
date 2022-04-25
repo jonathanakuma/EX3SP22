@@ -1,7 +1,8 @@
 from PyQt5.QtWidgets import QApplication, QWidget
 import PyQt5.QtWidgets as qtw
 import PyQt5.QtGui as qtg
-from Problem1 import Ui_Form
+from EX3_Prob1_Gui import Ui_Form
+from EX3_Prob1_stem import RLCCalc 
 import sys
 
 
