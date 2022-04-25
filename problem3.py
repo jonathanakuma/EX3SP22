@@ -1,17 +1,11 @@
-# -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'Problem3.ui'
-#
-# Created by: PyQt5 UI code generator 5.9.2
-#
-# WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_Frame(object):
     def setupUi(self, Frame):
         Frame.setObjectName("Frame")
-        Frame.resize(1116, 809)
+        Frame.resize(1000, 800)
         Frame.setFrameShape(QtWidgets.QFrame.WinPanel)
         Frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.gridLayout_4 = QtWidgets.QGridLayout(Frame)
