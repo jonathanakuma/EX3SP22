@@ -1,0 +1,60 @@
+#RLC Circuit
+	# Units:
+	# Resistance = Ohms
+	# Inductance = Henrys
+	# Capacitor = Faradays
+	# Current = Amperage
+	# Voltage = Volts
+	#
+	# Need resistors, inductors, capacitors, voltage sources, nodes, and loops
+	#
+	#
+	#
+<Resistor>
+	nodes: (b,e)
+	value: 10.0
+</Resistor>
+<Inductor>
+	nodes: (a,b)
+	value: 20.0
+</Inductor>
+<Capacitor>
+	nodes: (c,d)
+</Capacitor>
+<Voltage Source>
+	
+</Voltage Source>
+
+<Loop>
+	Name: A
+	Route: a-b, b-e, e-f, f-a
+</Loop>
+<Loop>
+	Name: B
+	Route: a-b, b-c, c-d, d-e, e-f, f-a
+</Loop>
+# Position: X, Y
+<Node>
+	Name: a
+	Position: -50.0, 50.0
+</Node
+<Node>
+	Name: b
+	Position: 0.0, 50.0
+</Node
+<Node>
+	Name: c
+	Position: 50.0, 50.0
+</Node
+<Node>
+	Name: d
+	Position: 50.0, 0.0
+</Node
+<Node>
+	Name: e
+	Position: 0.0, 0.0
+</Node
+<Node>
+	Name: f
+	Position: -50.0, 0.0
+</Node
