@@ -14,15 +14,18 @@
 	nodes: (b,e)
 	value: 10.0
 </Resistor>
+     R= 10 ohms
 <Inductor>
 	nodes: (a,b)
 	value: 20.0
 </Inductor>
+    L=20H
 <Capacitor>
 	nodes: (c,d)
 </Capacitor>
+    C= 0.05F
 <Voltage Source>
-	
+	v(t)=20*sin(20*t+0)
 </Voltage Source>
 
 <Loop>
